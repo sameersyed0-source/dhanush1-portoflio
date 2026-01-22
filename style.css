@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0e0e0e;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(to bottom, #111, #000);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00ffcc;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #00ffcc;
+}
+
+.hero h2 {
+  font-weight: 400;
+  margin: 8px 0;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 16px;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.links a:hover {
+  background: #00ffcc;
+  color: #000;
+}
+
+.section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.section h3 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style: none;
+}
+
+.section ul li {
+  margin-bottom: 8px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.section ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #00ffcc;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
